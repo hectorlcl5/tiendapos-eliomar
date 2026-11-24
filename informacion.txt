@@ -1,0 +1,15 @@
+         APIS KEYS URLS             xmqmfefjxirzfszwhczw      
+
+
+        Project región              us-west-2 
+
+
+
+APIS KEY                         sb_publishable_pVS5quVCP91mCTpKXY5X4g__02Ufbn6
+
+
+API URL                          https://xmqmfefjxirzfszwhczw.supabase.co
+
+
+
+UID  USER Admin@tienda.com    291fad3c-eb9a-4511-96f6-859f5c187429
