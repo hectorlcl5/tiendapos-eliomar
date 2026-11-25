@@ -31,10 +31,63 @@ export default function Login() {
     <div className="min-h-screen flex items-center justify-center bg-gray-950 px-4">
       <div className="max-w-md w-full bg-gray-900 rounded-2xl shadow-2xl p-8 border border-gray-800">
         <div className="text-center mb-8">
-          <div className="bg-blue-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-[0_0_20px_rgba(37,99,235,0.5)]">
-            <Store className="text-white w-8 h-8" />
+          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-blue-500/20 border border-emerald-500/30 flex items-center justify-center mx-auto mb-3 shadow-lg shadow-emerald-950/40">
+            <svg
+              viewBox="0 0 48 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-11 h-11"
+            >
+              <rect
+                x="8"
+                y="20"
+                width="32"
+                height="20"
+                rx="3"
+                fill="#1E293B"
+                stroke="#38BDF8"
+                strokeWidth="2.5"
+              />
+              <rect
+                x="13"
+                y="27"
+                width="9"
+                height="13"
+                rx="1.5"
+                fill="#10B981"
+              />
+              <circle cx="19.5" cy="33.5" r="1" fill="#ECFDF5" />
+              <rect
+                x="26"
+                y="27"
+                width="9"
+                height="7"
+                rx="1.5"
+                fill="#38BDF8"
+              />
+              <path
+                d="M6 14L10 8H38L42 14V18C42 20.2091 40.2091 22 38 22C35.7909 22 34 20.2091 34 18C34 20.2091 32.2091 22 30 22C27.7909 22 26 20.2091 26 18C26 20.2091 24.2091 22 22 22C19.7909 22 18 20.2091 18 18C18 20.2091 16.2091 22 14 22C11.7909 22 10 20.2091 10 18C10 20.2091 8.20914 22 6 22V14Z"
+                fill="#F97316"
+              />
+              <path
+                d="M14 8H20L18 18C18 20.2091 16.2091 22 14 22C11.7909 22 10 20.2091 10 18L14 8Z"
+                fill="#FACC15"
+              />
+              <path
+                d="M28 8H34L34 18C34 20.2091 32.2091 22 30 22C27.7909 22 26 20.2091 26 18L28 8Z"
+                fill="#FACC15"
+              />
+            </svg>
           </div>
-          <h2 className="text-2xl font-bold text-white">Sistema POS</h2>
+          <div className="leading-tight mb-2">
+            <h1 className="text-2xl font-extrabold text-white tracking-wide">
+              Abasto
+            </h1>
+            <span className="text-base font-bold text-emerald-400 tracking-wider uppercase">
+              Eliomar
+            </span>
+          </div>
+
           <p className="text-gray-400 mt-2">
             Ingresa tus credenciales para continuar
           </p>

@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
-import { useAuthStore } from '../store/authStore';
-import { usePosStore } from '../store/posStore';
-import TurnManager from '../components/pos/TurnManager';
-import ProductSearch from '../components/pos/ProductSearch';
-import TicketCart from '../components/pos/TicketCart';
-import CheckoutModal from '../components/pos/CheckoutModal';
+import { useEffect, useState } from "react";
+import { useAuthStore } from "../store/authStore";
+import { usePosStore } from "../store/posStore";
+import TurnManager from "../components/pos/TurnManager";
+import ProductSearch from "../components/pos/ProductSearch";
+import TicketCart from "../components/pos/TicketCart";
+import CheckoutModal from "../components/pos/CheckoutModal";
 
 export default function Ventas() {
   const { user } = useAuthStore();
@@ -31,8 +31,7 @@ export default function Ventas() {
   }
 
   return (
-    <div className="flex flex-col lg:flex-row gap-6 h-[calc(100vh-6rem)]">
-      
+    <div className="flex flex-col lg:flex-row gap-6 -my-4 h-[calc(100vh-2rem)]">
       {/* Panel Izquierdo: Buscador (Ahora reducido al 30% aprox) */}
       <div className="w-full lg:w-[350px] xl:w-[400px] shrink-0">
         <ProductSearch />
@@ -44,11 +43,10 @@ export default function Ventas() {
       </div>
 
       {/* Modal de Cobro */}
-      <CheckoutModal 
-        isOpen={isCheckoutOpen} 
-        onClose={() => setIsCheckoutOpen(false)} 
+      <CheckoutModal
+        isOpen={isCheckoutOpen}
+        onClose={() => setIsCheckoutOpen(false)}
       />
-      
     </div>
   );
 }
